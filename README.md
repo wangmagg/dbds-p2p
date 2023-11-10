@@ -17,7 +17,8 @@ conda activate dbds-p2p-env
 This will ensure that the necessary package dependencies are installed.
 
 ## File Descriptions
-├── README.md
+```
+├── README.md 
 ├── email_inputs
 │   ├── dates.csv
 │   └── template.txt
@@ -29,6 +30,7 @@ This will ensure that the necessary package dependencies are installed.
 └── sample_data
     ├── sample_mentees.xlsx
     └── sample_mentors.xlsx
+```
 
 ## Explanation of the Matching "Algorithm"
 
