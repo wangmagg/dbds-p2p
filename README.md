@@ -17,11 +17,18 @@ conda activate dbds-p2p-env
 This will ensure that the necessary package dependencies are installed.
 
 ## File Descriptions
-__```make_matches.py```__: Implementation and execution of the matching algorithm (see details on the algorithm in _Explanation of the Matching "Algorithm"_). <br />
-__```compose_emails.py```__: Writes emails to mentors with information on their mentees. Formatting is based on the files in the ```email_inputs``` folder. <br />
-__```email_inputs```__: <br />
-|__ ```template.txt```: Template email to mentors. Gets filled in for each mentor-mentee pairing by the ```compose_emails.py``` script. <br />
-|__ ```dates.csv```: Contains two deadline dates: (1) Deadline for reaching out to mentees. (2) Official DBDS application deadline. These dates are inserted in the email to mentors.
+├── README.md
+├── email_inputs
+│   ├── dates.csv
+│   └── template.txt
+├── emails.py
+├── environment.yml
+├── matches.py
+├── p2p.sh
+├── requirements.txt
+└── sample_data
+    ├── sample_mentees.xlsx
+    └── sample_mentors.xlsx
 
 ## Explanation of the Matching "Algorithm"
 
