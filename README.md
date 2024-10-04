@@ -48,7 +48,7 @@ To make a matching between all mentees and mentors, we do the following:
 
 * __Make matches between the PhD mentors and the PhD mentees, as well as any MS mentees who did not get matched in the previous step__. Using the same procedure as above, we make matches between all remaining mentees and the PhD mentors. 
 
-__Repeatedly producing possible matchings and picking the final one__
+### Repeatedly producing possible matchings and picking the final one
 We repeat the above procedure many times to produce many candidate matchings. We calculate the score for each matching, then keep the one with the lowest score. This is the final matching.
 
 
@@ -58,12 +58,14 @@ In order to run the code, the inputs need to be formatted in a very specific way
 
 In the ```sample_data``` folder, you will find examples of how the inputs to the matching algorithm should be formatted. You will need to provide one Excel file containing mentee information and one containing mentor information. 
 
-__Mentor file formatting__
+__Mentor file formatting__ 
+
 The mentor file should contain two sheets: "Form Responses 1" and "Match_Input". "Form Responses 1" is the data that you will get from the Google form.
 
 "Match_Input" is an additional sheet that you will need to construct manually. This sheet should have 3 columns, "Name", "Capacity", and "Program", in that order. "Name" should contain the first and last name of the mentor. "Capacity" should contain their specified mentee capacity. "Program" should contain which degree program they are a part of, either "MS" or "PhD". 
 
 __Mentee file formatting__
+
 The mentor file should contain two sheets: "Form Responses 1" and "Match_Input". "Form Responses 1" is the data that you will get from the Google form.
 
 "Match_Input" is an additional sheet that you will need to construct manually. This sheet should have 4 columns, "Name", "Program", "1", "2", and "3", in that order. "Name" should contain the first and last name of the mentee. "Program" should contain which degree program they are applying to, either "MS" or "PhD". "1", "2", and "3" should contain the first and last names of their first choice, second choice, and third choice mentors, respectively (if specified). If any of the first, second, or third choice mentors are not specified by the mentee, then the cell should be left blank.
