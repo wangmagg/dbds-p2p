@@ -1,0 +1,41 @@
+TO: 
+gweasley@hogwarts.edu
+
+SUBJECT: 
+SECURE: Stanford Biomedical Data Science Peer-2-Peer Program
+
+BODY:
+Dear Luna,
+
+Thank you so much for volunteering for the DBDS P2P Mentoring Program! 
+
+Please reach out to your mentee and schedule a 30-minute Zoom call before Wednesday, 11/29/23 so that your mentees have time to edit their SOPs before the application deadline on Tuesday, 12/05/23. Below is some information about your mentee:
+
+Name:
+Stephen Strange
+
+Email:
+sstrange@mcu.com
+
+Applying to:
+PhD program
+
+Last or Current Major:
+sample
+
+Last or Current University:
+sample
+
+Graduation Year:
+2050
+
+Research Interests:
+sample
+
+How do you contribute to diversity in STEM?
+sample
+
+Link to SOP: sample_link
+
+Happy mentoring!
+

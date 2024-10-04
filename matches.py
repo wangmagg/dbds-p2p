@@ -5,7 +5,7 @@ from tqdm import tqdm
 from pathlib import Path
 from typing import List
 
-def get_mentees(mentee_file: str) -> (np.ndarray, np.ndarray):
+def get_mentees(mentee_file: str) -> tuple[np.ndarray, np.ndarray]:
     """
     Gets mentee information (name and ranked mentor preferences) from mentee file.
 
@@ -36,7 +36,7 @@ def get_mentees(mentee_file: str) -> (np.ndarray, np.ndarray):
 
     return mentee_ms, mentee_phd
 
-def get_mentors(mentor_file: str) -> (dict, dict):
+def get_mentors(mentor_file: str) -> tuple[dict, dict]:
     """
     Gets mentor information (name and capacity) from mentor file.
 
@@ -69,7 +69,7 @@ def get_mentors(mentor_file: str) -> (dict, dict):
 
     return mentor_ms_dict, mentor_phd_dict
 
-def split_has_pref(mentee_arr: np.ndarray) -> (np.ndarray, np.ndarray):
+def split_has_pref(mentee_arr: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     """
     Splits mentees into those with preferences and those without.
 
@@ -115,7 +115,7 @@ def make_matches(mentee_arr: np.ndarray,
                  mentor_rem_dict: dict, 
                  match_arr: List[List], 
                  ranks: List[int], 
-                 score: int) -> (int, List[List], np.ndarray):
+                 score: int) -> tuple[int, List[List], np.ndarray]:
     
     """
     Makes matches between mentees and mentors with capacity.

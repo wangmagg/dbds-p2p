@@ -2,7 +2,7 @@
 
 python3 matches.py \
     --input-dir sample_data \
-    --output-dir outputs \
+    --output-dir sample_outputs \
     --mentee-file sample_mentees.xlsx \
     --mentor-file sample_mentors.xlsx \
     --ranks 0 2 5 20 \
@@ -10,6 +10,6 @@ python3 matches.py \
 
 python3 emails.py \
     --input-dir sample_data \
-    --output-dir outputs \
+    --output-dir sample_outputs \
     --mentee-file sample_mentees.xlsx \
     --mentor-file sample_mentors.xlsx \

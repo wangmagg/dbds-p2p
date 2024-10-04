@@ -70,7 +70,7 @@ def compose_email(match_info: pd.Series,
     Parameters:
         match_info (pd.Series): Series containing mentor and mentee information.
         template (str): Email template.
-        em ail_output_dir (Path): Directory to save emails to.
+        email_output_dir (Path): Directory to save emails to.
     """
 
     mentor_name = match_info["Mentor_Name"]
